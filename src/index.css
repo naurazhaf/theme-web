@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color, #ffffff); 
+  color: var(--text, #000000); 
+}
+
+.navbar {
+  background-color: var(--background-color, #1b263b);
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar a {
+  color: var(--text, #ffffff);   
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home, .about, .projects, .contact {
+  padding: 2rem;
+  text-align: center;
+}
